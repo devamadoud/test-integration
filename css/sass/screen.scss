@@ -1,0 +1,59 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&family=Roboto+Flex:opsz,wght@8..144,200;8..144,700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// reset
+@import "compass/reset";
+@import "header";
+@import "section";
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.75;
+    color: rgb(82, 82, 82);
+    font-size: 16px;
+    height: 100vh;
+    
+    .btn{
+        display: inline-block;
+        color: white;
+        padding: 0 40px;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 1px;
+        background-color: rgba(243, 156, 18, 0);
+        cursor: pointer;
+        line-height: 40px;
+        transition: all 0.3s ease-in-out;
+        border: 2px solid white;
+        &:hover{
+            background-color: orange;
+            border: 2px solid orange;
+        }
+    }
+    a{
+        text-decoration: none;
+    }
+    
+    .se{
+        clear: both;
+    }
+    
+    div{
+        display: block;
+    }
+    input, textarea, button{
+        outline: none;
+        border-radius: 0;
+        appearance: none;
+    }
+}
+
