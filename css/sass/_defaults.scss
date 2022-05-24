@@ -1,0 +1,76 @@
+.btn{
+    display: inline-block;
+    color: white;
+    padding: 0 40px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: rgba(243, 156, 18, 0);
+    cursor: pointer;
+    line-height: 40px;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid white;
+    &:hover{
+        background-color: orange;
+        border: 2px solid orange;
+    }
+}
+a{
+    text-decoration: none;
+}
+
+.se{
+    clear: both;
+}
+
+div{
+    display: block;
+}
+input, textarea, button{
+    outline: none;
+    border-radius: 0;
+    appearance: none;
+}
+
+.revealBlock{
+    opacity: 0;
+    transform: translateX(-30px);
+}
+
+.revealBlock-visible{
+    opacity: 1;
+    transform: translateX(0);
+    transition: 1s cubic-bezier(.5, 0, .0, 1);
+}
+
+.revealText{
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.revealText-visible{
+    opacity: 1;
+    transform: translateY(0);
+    transition: 1s cubic-bezier(.5, 0, .0, 1);
+}
+
+.revealWidth{
+    width: 0 !important;
+}
+
+.revealWidth-visible{
+    width: auto;
+    transition: 1s cubic-bezier(.5, 0, .0, 1);
+}
+
+.revealBtn{
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.revealBtn-visible{
+    opacity: 1;
+    transform: translateY(0);
+    transition: 1s cubic-bezier(.5, 0, .0, 1);
+}

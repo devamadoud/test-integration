@@ -13,6 +13,7 @@
 @import "compass/reset";
 @import "header";
 @import "section";
+@import "defaults";
 
 body{
     font-family: 'Open Sans', sans-serif;
@@ -20,40 +21,5 @@ body{
     color: rgb(82, 82, 82);
     font-size: 16px;
     height: 100vh;
-    
-    .btn{
-        display: inline-block;
-        color: white;
-        padding: 0 40px;
-        font-size: 15px;
-        text-transform: uppercase;
-        font-weight: bold;
-        letter-spacing: 1px;
-        background-color: rgba(243, 156, 18, 0);
-        cursor: pointer;
-        line-height: 40px;
-        transition: all 0.3s ease-in-out;
-        border: 2px solid white;
-        &:hover{
-            background-color: orange;
-            border: 2px solid orange;
-        }
-    }
-    a{
-        text-decoration: none;
-    }
-    
-    .se{
-        clear: both;
-    }
-    
-    div{
-        display: block;
-    }
-    input, textarea, button{
-        outline: none;
-        border-radius: 0;
-        appearance: none;
-    }
 }
 
