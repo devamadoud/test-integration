@@ -612,57 +612,57 @@ input, textarea, button {
   appearance: none;
 }
 
-/* line 36, ../sass/_defaults.scss */
+/* line 1, ../sass/_reveals.scss */
 .revealBlock {
   opacity: 0;
   transform: translateX(-30px);
 }
 
-/* line 41, ../sass/_defaults.scss */
+/* line 6, ../sass/_reveals.scss */
 .revealBlock-visible {
   opacity: 1;
   transform: translateX(0);
   transition: 1s cubic-bezier(0.5, 0, 0, 1);
 }
 
-/* line 47, ../sass/_defaults.scss */
+/* line 12, ../sass/_reveals.scss */
 .revealText {
   opacity: 0;
   transform: translateY(20px);
 }
 
-/* line 52, ../sass/_defaults.scss */
+/* line 17, ../sass/_reveals.scss */
 .revealText-visible {
   opacity: 1;
   transform: translateY(0);
   transition: 1s cubic-bezier(0.5, 0, 0, 1);
 }
 
-/* line 58, ../sass/_defaults.scss */
+/* line 23, ../sass/_reveals.scss */
 .revealWidth {
   width: 0 !important;
 }
 
-/* line 62, ../sass/_defaults.scss */
+/* line 27, ../sass/_reveals.scss */
 .revealWidth-visible {
   width: auto;
   transition: 1s cubic-bezier(0.5, 0, 0, 1);
 }
 
-/* line 67, ../sass/_defaults.scss */
+/* line 32, ../sass/_reveals.scss */
 .revealBtn {
   opacity: 0;
   transform: translateY(30px);
 }
 
-/* line 72, ../sass/_defaults.scss */
+/* line 37, ../sass/_reveals.scss */
 .revealBtn-visible {
   opacity: 1;
   transform: translateY(0);
   transition: 1s cubic-bezier(0.5, 0, 0, 1);
 }
 
-/* line 18, ../sass/screen.scss */
+/* line 19, ../sass/screen.scss */
 body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.75;
